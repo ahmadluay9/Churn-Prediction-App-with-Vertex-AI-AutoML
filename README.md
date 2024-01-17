@@ -89,10 +89,11 @@ High sensitivity and specificity, along with precision, indicate a model that is
 
 ## Application
 ### Architecture
-![streamlit with fastapi](image.png)
+![image](https://github.com/ahmadluay9/Churn-Prediction-App-with-Vertex-AI-AutoML/assets/123846438/c031e70f-1298-4088-a0ba-1f11b28e7f5a)
 
 ### Project Setup
 
+Here are the steps to use the application on your local computer:
 - Clone this repository
 
 ```shell
