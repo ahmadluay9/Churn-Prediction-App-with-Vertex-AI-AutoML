@@ -1,6 +1,8 @@
 # Churn-Prediction-App-with-Vertex-AI-AutoML
 
-![Alt text](image-1.png)
+- [Previous Project]('https://github.com/ahmadluay9/Customer-Churn-Prediction')
+  
+- [Application Demo]()
 
 "Churn Prediction App with Vertex AI AutoML" is a project that leverages the capabilities of Vertex AI AutoML to develop an intelligent application focused on predicting and mitigating customer churn. By predicting customer churn, a company can take proactive measures to retain these customer.
 
@@ -8,7 +10,7 @@
 
 ## File Explanation
 This repository consists of several files :
-    ```
+```
     ├── backend/
     │   ├── app.py
     │   ├── ctelkom-dbe404744ae4.json
@@ -23,7 +25,7 @@ This repository consists of several files :
     ├── requirements.txt
     ├── sample_10.csv
     └── Vertex_AI_Notebook.ipynb
-    ```
+```
 
 - `backend/ app.py`: This file  contains the backend code for the application. It responsible for handling server-side logic, API endpoints, or any other backend functionality.
 
