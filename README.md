@@ -1,8 +1,8 @@
 # Churn-Prediction-App-with-Vertex-AI-AutoML
 
-- [Previous Project](https://github.com/ahmadluay9/Customer-Churn-Prediction)
-  
 - [Application Demo]()
+
+- [Previous Project](https://github.com/ahmadluay9/Customer-Churn-Prediction)
 
 "Churn Prediction App with Vertex AI AutoML" is a project that leverages the capabilities of Vertex AI AutoML to develop an intelligent application focused on predicting and mitigating customer churn. This project is a follow-up project to the [customer churn prediction project](https://github.com/ahmadluay9/Customer-Churn-Prediction) that has already been done. By predicting customer churn, a company can take proactive measures to retain these customer.
 
@@ -12,8 +12,12 @@
 This repository consists of several files :
 ```
     ├── backend/
+    │   ├── model/
+    │   |   ├── best_model.h5
+    │   |   ├── Drop_Columns.txt
+    │   |   ├── final_pipeline.pkl
+    │   |   ├── model.py
     │   ├── app.py
-    │   ├── ctelkom-dbe404744ae4.json
     │   ├── Dockerfile
     │   ├── requirements.txt
     ├── frontend/
@@ -26,10 +30,15 @@ This repository consists of several files :
     ├── sample_10.csv
     └── Vertex_AI_Notebook.ipynb
 ```
+- `backend/ model/ best_model.h5`: This file is saved tensorflow model from previous project.
+  
+- `backend/ model/ Drop_Columns.txt`: This file contain a list of column names or indices that should be dropped or ignored during data preprocessing or model training.
+  
+- `backend/ model/ final_pipeline.pkl`: This file is a serialized version of a machine learning pipeline.
+  
+- `backend/ model/ model.py`: This file contains code to load the trained machine learning model from the saved file.
 
-- `backend/ app.py`: This file  contains the backend code for the application. It responsible for handling server-side logic, API endpoints, or any other backend functionality.
-
-- `backend/ ctelkom-dbe404744ae4.json`: This is a service account JSON key file. It is used for authenticating application to Google Cloud services.
+- `backend/ app.py`: This file contains the backend code for the application. It responsible for handling server-side logic, API endpoints, or any other backend functionality.
 
 - `backend/ Dockerfile`: Dockerfile is used to build a Docker image for backend application. It includes instructions on how to set up the environment and dependencies needed for backend.
 
