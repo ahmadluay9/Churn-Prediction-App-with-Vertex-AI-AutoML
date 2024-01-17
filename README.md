@@ -1,10 +1,10 @@
 # Churn-Prediction-App-with-Vertex-AI-AutoML
 
-- [Previous Project]('https://github.com/ahmadluay9/Customer-Churn-Prediction')
+- [Previous Project](https://github.com/ahmadluay9/Customer-Churn-Prediction)
   
 - [Application Demo]()
 
-"Churn Prediction App with Vertex AI AutoML" is a project that leverages the capabilities of Vertex AI AutoML to develop an intelligent application focused on predicting and mitigating customer churn. By predicting customer churn, a company can take proactive measures to retain these customer.
+"Churn Prediction App with Vertex AI AutoML" is a project that leverages the capabilities of Vertex AI AutoML to develop an intelligent application focused on predicting and mitigating customer churn. This project is a follow-up project to the [customer churn prediction project](https://github.com/ahmadluay9/Customer-Churn-Prediction) that has already been done. By predicting customer churn, a company can take proactive measures to retain these customer.
 
 ---
 
@@ -56,8 +56,9 @@ This repository consists of several files :
 The model used is a model trained using **Vertex AI AutoML**. Vertex AI provides a comprehensive and user-friendly platform for developing, deploying, and managing machine learning models, enabling you to focus on solving business problems rather than managing infrastructure and complexities.
 
 ### Model Evaluation
-![Alt text](image-2.png)
-![Alt text](image-3.png)
+![image-2](https://github.com/ahmadluay9/Churn-Prediction-App-with-Vertex-AI-AutoML/assets/123846438/e58e2244-70a9-4d59-8fc3-8e3a01e43cc2)
+![image-3](https://github.com/ahmadluay9/Churn-Prediction-App-with-Vertex-AI-AutoML/assets/123846438/37df06fe-b1f4-44f9-aa3a-60074b78b966)
+
 
 
 The model evaluation metrics indicate excellent performance:
@@ -71,7 +72,8 @@ The model evaluation metrics indicate excellent performance:
 - `Precision`: 92.6% - Accurate identification of positive instances.
 - `Recall`: 92.6% - Capturing a high percentage of actual positive instances.
 
-![Alt text](image-4.png)
+![image-4](https://github.com/ahmadluay9/Churn-Prediction-App-with-Vertex-AI-AutoML/assets/123846438/d701297e-9b58-4926-ad22-5f581fe7e30b)
+
 
 - `True Positive (TP)`: 93% - The model correctly predicted instances as "churn" (label 1) when the true label was indeed "churn."
 
