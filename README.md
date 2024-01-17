@@ -1,6 +1,6 @@
 # Churn-Prediction-App-with-Vertex-AI-AutoML
 
-- [Application Demo]()
+- [Application Demo](https://churn-prediction-app-frontend-7emkch5d3q-nn.a.run.app/)
 
 - [Previous Project](https://github.com/ahmadluay9/Customer-Churn-Prediction)
 
