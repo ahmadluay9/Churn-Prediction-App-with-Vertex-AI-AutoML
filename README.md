@@ -121,10 +121,6 @@ $ docker-compose up
 
 ---
 
-## Results
-
----
-
 ## Conclusions 
 
 The "Churn Prediction App with Vertex AI AutoML" successfully taps into the potential of Vertex AI AutoML, offering an intelligent solution for predicting and addressing customer churn. The model, trained using Vertex AI AutoML, exhibits commendable performance across various evaluation metrics, showcasing its ability to accurately identify both churn and non-churn instances. The balanced F1 score, high precision and recall, and discrimination power reflected in ROC AUC and PR AUC underscore the model's effectiveness.
